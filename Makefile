@@ -13,7 +13,7 @@ INC_FLAGS := $(addprefix -I,$(INC_DIRS))
 LINK_LIBS := sqlite3
 LINK_FLAGS := $(addprefix -l,$(LINK_LIBS))
 
-CFLAGS := $(INC_FLAGS)
+CFLAGS := $(INC_FLAGS) -g
 LDFLAGS := $(LINK_FLAGS) -MMD -MP
 
 # The final build step

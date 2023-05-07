@@ -1,3 +1,6 @@
 *.db
 
+.ccls
+.gdb_history
+
 /build/
